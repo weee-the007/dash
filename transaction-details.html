@@ -20,10 +20,10 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<link href="vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
 	<link href="vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	<link href="vendor/jquery-autocomplete/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="../ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	
 	<!-- Style css -->
-	
+	<link href="vendor/jquery-autocomplete/jquery-ui.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	
 </head>
@@ -32,7 +32,7 @@
     <!--*******************
         Preloader start
     ********************-->
-	<div id="preloader">
+	 <div id="preloader">
         <div class="inner">
             <span>Loading </span>
             <div class="loading">  
@@ -103,6 +103,7 @@
             </div>
 		
         </div>
+	
         <!--**********************************
             Nav header end
         ***********************************-->
@@ -333,14 +334,14 @@
 						<div class="card chat dlab-chat-history-box d-none">
 							<div class="card-header chat-list-header text-center">
 								<a href="javascript:void(0);" class="dlab-chat-history-back">
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"></polygon><rect fill="#ffffff" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"></rect><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#ffffff" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "></path></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"></polygon><rect fill="#000000" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"></rect><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "></path></g></svg>
 								</a>
 								<div>
 									<h6 class="mb-1">Chat with Khelesh</h6>
 									<p class="mb-0 text-success">Online</p>
 								</div>							
 								<div class="dropdown">
-									<a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#ffffff" cx="5" cy="12" r="2"></circle><circle fill="#ffffff" cx="12" cy="12" r="2"></circle><circle fill="#ffffff" cx="19" cy="12" r="2"></circle></g></svg></a>
+									<a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
 									<ul class="dropdown-menu dropdown-menu-end">
 										<li class="dropdown-item"><i class="fa fa-user-circle text-primary me-2"></i> View profile</li>
 										<li class="dropdown-item"><i class="fa fa-users text-primary me-2"></i> Add to btn-close friends</li>
@@ -628,7 +629,7 @@
                     <div class="collapse navbar-collapse justify-content-between">
                         <div class="header-left">
 							<div class="dashboard_bar">
-                                Dashboard
+                             Details
                             </div>
                         </div>
                         <ul class="navbar-nav header-right">
@@ -636,15 +637,16 @@
 								<div class="input-group search-area">
 									<input type="text" class="form-control" id="search" placeholder="Search here...">
 									<span class="input-group-text"><a href="javascript:void(0)"><svg width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path opacity="1" d="M16.6751 19.4916C16.2194 19.036 16.2194 18.2973 16.6751 17.8417C17.1307 17.3861 17.8694 17.3861 18.325 17.8417L22.9916 22.5084C23.4473 22.964 23.4473 23.7027 22.9916 24.1583C22.536 24.6139 21.7973 24.6139 21.3417 24.1583L16.6751 19.4916Z" fill="white"></path>
+										<path opacity="0.3" d="M16.6751 19.4916C16.2194 19.036 16.2194 18.2973 16.6751 17.8417C17.1307 17.3861 17.8694 17.3861 18.325 17.8417L22.9916 22.5084C23.4473 22.964 23.4473 23.7027 22.9916 24.1583C22.536 24.6139 21.7973 24.6139 21.3417 24.1583L16.6751 19.4916Z" fill="white"></path>
 										<path d="M12.8333 18.6667C16.055 18.6667 18.6667 16.055 18.6667 12.8334C18.6667 9.61169 16.055 7.00002 12.8333 7.00002C9.61166 7.00002 6.99999 9.61169 6.99999 12.8334C6.99999 16.055 9.61166 18.6667 12.8333 18.6667ZM12.8333 21C8.323 21 4.66666 17.3437 4.66666 12.8334C4.66666 8.32303 8.323 4.66669 12.8333 4.66669C17.3436 4.66669 21 8.32303 21 12.8334C21 17.3437 17.3436 21 12.8333 21Z" fill="white"></path>
 										</svg>
-										</a></span>
+										</a>
+									</span>
 								</div>
 							</li>
                         </ul>
 						<div class="dropdown header-profile2 ">
-							<ul class="navbar-nav header-right me-sm-4">
+							<ul class="navbar-nav header-right me-4">
 								<li class="nav-item dropdown notification_dropdown">
 									<a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
 										<svg width="20" height="21" viewbox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -661,7 +663,7 @@
 															<img alt="image" width="50" src="images/avatar/1.jpg">
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)"> Dr sultads Send you Photo</a></h6>
+															<h6 class="mb-1">Dr sultads Send you Photo</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -672,7 +674,7 @@
 															KG
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)">Resport created successfully</a></h6>
+															<h6 class="mb-1">Resport created successfully</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -683,7 +685,7 @@
 															<i class="fa fa-home"></i>
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)">Reminder : Treatment Time!</a></h6>
+															<h6 class="mb-1">Reminder : Treatment Time!</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -694,7 +696,7 @@
 															<img alt="image" width="50" src="images/avatar/1.jpg">
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)">Dr sultads Send you Photo</a></h6>
+															<h6 class="mb-1">Dr sultads Send you Photo</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -705,7 +707,7 @@
 															KG
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)"> Resport created successfully </a></h6>
+															<h6 class="mb-1">Resport created successfully</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -716,7 +718,7 @@
 															<i class="fa fa-home"></i>
 														</div>
 														<div class="media-body">
-															<h6 class="mb-1"><a href="javascript:voiud(0)"> Reminder : Treatment Time! </a></h6>
+															<h6 class="mb-1">Reminder : Treatment Time!</h6>
 															<small class="d-block">29 July 2020 - 02:26 PM</small>
 														</div>
 													</div>
@@ -835,7 +837,6 @@
 				</nav>
 			</div>
 		</div>
-
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -843,6 +844,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
+ 	
 		<div class="dlabnav">
 			<div class="dlabnav-scroll">
 				
@@ -858,7 +860,8 @@
 							<span class="nav-text">Dashboard</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="index.html">Dashboard</a></li>
+							<li><a href="index.html">Dashboard </a></li>
+							<li><a href="balance-page.html">Balance Page</a></li>
 							<li><a href="transaction-details.html">Account Details</a></li>
 							<li><a href="transaction-history.html">Transaction History</a></li>
 							
@@ -869,7 +872,7 @@
 				</ul>
 				
 				<div class="copyright">
-					<p class="fs-14"><strong>FMWB</strong> © 2024 All Rights Reserved</p>
+					<p class="fs-14"><strong>FMWB</strong> © 2022 All Rights Reserved</p>
 					
 				</div>
 			</div>
@@ -886,301 +889,275 @@
             <!-- row -->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xl-9">
+					<div class="col-xl-12">
 						<div class="row">
 							<!----column-- -->
-							<div class="col-xl-8">
-								<div class="card balance-data">
-									<div class="card-header border-0 flex-wrap">
-										<h4 class="fs-18 font-w600">Your Balance Summary</h4>
-										<div class="d-flex align-items-center">
-											<div class="round" id="dzNewSeries">
-												<input type="checkbox" id="checkbox" name="balance_summary" value="monthly">
-												<label for="checkbox" class="checkmark monthy"></label>
-												<span>Monthly</span>
-											</div>
-											<div class="round" id="dzOldSeries">
-												<input type="checkbox" id="checkbox1" name="balance_summary" value="weekly">
-												<label for="checkbox1" class="checkmark weekly"></label>
-												<span>Weekly</span>
-											</div>
-											<div class="dropdown">
-												<a href="javascript:void(0);" class="btn-link btn sharp tp-btn-light btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
-												<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M8.33319 9.99985C8.33319 10.9203 9.07938 11.6665 9.99986 11.6665C10.9203 11.6665 11.6665 10.9203 11.6665 9.99986C11.6665 9.07938 10.9203 8.33319 9.99986 8.33319C9.07938 8.33319 8.33319 9.07938 8.33319 9.99985Z" fill="#B9A8FF"></path>
-												<path d="M8.33319 3.33329C8.33319 4.25376 9.07938 4.99995 9.99986 4.99995C10.9203 4.99995 11.6665 4.25376 11.6665 3.33329C11.6665 2.41282 10.9203 1.66663 9.99986 1.66663C9.07938 1.66663 8.33319 2.41282 8.33319 3.33329Z" fill="#B9A8FF"></path>
-												<path d="M8.33319 16.6667C8.33319 17.5871 9.07938 18.3333 9.99986 18.3333C10.9203 18.3333 11.6665 17.5871 11.6665 16.6667C11.6665 15.7462 10.9203 15 9.99986 15C9.07938 15 8.33319 15.7462 8.33319 16.6667Z" fill="#B9A8FF"></path>
-												</svg>
-
-												</a>
-												<div class="dropdown-menu dropdown-menu-end">
-													<a class="dropdown-item" href="javascript:void(0);">Delete</a>
-													<a class="dropdown-item" href="javascript:void(0);">Edit</a>
+							<div class="col-xl-6">
+								<div class="card  ">
+									<div class="card-header">
+                                        <div>
+                                            <span class="font-w400 d-block">ID Payment</span>
+                                            <h4 class="fs-24 font-w600 mb-0 d-inline-flex me-2">#00123521</h4>
+                                        </div>
+										<div class="add-btn me-2">
+                                            <button class="btn btn-primary"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="1" d="M2 13C2 12.5 2.5 12 3 12C3.5 12 4 12.5 4 13C4 13.3333 4 15 4 18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V13C20 12.4477 20.4477 12 21 12C21.5523 12 22 12.4477 22 13V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18C2 15 2 13.3333 2 13Z" fill="white"></path>
+                                                <path opacity="1" d="M11 14C11 14.5523 11.4477 15 12 15C12.5523 15 13 14.5523 13 14L13 2C13 1.44771 12.5523 1 12 1C11.4477 1 11 1.44771 11 2L11 14Z" fill="white"></path>
+                                                <path d="M16.2929 9.29289C16.6834 8.90237 17.3166 8.90237 17.7071 9.29289C18.0976 9.68341 18.0976 10.3166 17.7071 10.7071L12.7071 15.7071C12.331 16.0832 11.7264 16.0991 11.331 15.7433L6.33104 11.2433C5.92053 10.8738 5.88725 10.2415 6.25671 9.83103C6.62617 9.42052 7.25845 9.38724 7.66896 9.7567L11.9638 13.622L16.2929 9.29289Z" fill="white"></path>
+                                                </svg> Download PDF</button>
+                                        </div>
+									</div>
+									<div class="card-body d-flex align-items-center justify-content-between flex-wrap pt-0">
+                                        <div class="d-flex py-sm-3 py-1 align-items-center flex-wrap student none">
+                                            <span class=" me-3">
+                                                <img src="images/profile/small/pic11.jpg" alt="" width="50">
+                                            </span>
+                                            <div>
+                                                <h6 class="font-w500 fs-16 mb-0"><a href="app-profile.html">Miley Cyrus</a></h6>
+                                                <span class="fs-14 font-w400">@thomaskhuncoro</span>
+                                            </div>
+                                            <div class="price ms-auto res">
+                                                
+                                                <a href="#">
+                                                    <span class="d-block">Amount</span>
+                                                        $776
+                                                </a>
+                                                <span class="d-inline-block doller">
+                                                    <svg width="15" height="25" viewbox="0 0 15 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.5847 25H8.33333V22.6962C12.6503 22.4972 15 19.7952 15 16.7235C15 12.3151 11.2568 11.4903 8.33333 10.6371V6.22867C9.09836 6.51308 9.61749 7.16724 9.72678 8.21957H14.7268C14.4809 4.60751 12.0765 2.61661 8.33333 2.30376V0H6.5847V2.30376C2.86885 2.55973 0 4.66439 0 8.21957C0 12.6849 3.6612 13.5381 6.5847 14.3345V18.8282C5.65574 18.5154 5.10929 17.8043 5 16.6382H0.0273224C0.163934 20.3072 2.86885 22.3265 6.5847 22.6678V25ZM10.1093 16.8942C10.1093 17.9465 9.42623 18.7144 8.33333 18.9135V14.8749C9.39891 15.3015 10.1093 15.8703 10.1093 16.8942ZM4.94535 7.99204C4.94535 6.88282 5.57377 6.25711 6.5847 6.08646V10.0398C5.60109 9.58476 4.94535 8.98749 4.94535 7.99204Z" fill="white"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>																				
+                                        </div>
+										<div class="row">
+											<!----column-- -->
+											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+												<div class="card info">
+													<div class="card-body d-flex align-items-center p-3">
+														<div class="info-icon pe-3 ">
+															<svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path opacity="0.4" d="M19.224 7.31991C18.5893 7.20266 18.0064 7.60772 17.8855 8.22729C17.7647 8.84686 18.171 9.45178 18.7885 9.57303C20.6475 9.93545 22.0829 11.3745 22.4468 13.2398V13.2412C22.5503 13.7781 23.0231 14.1685 23.5675 14.1685C23.6405 14.1685 23.7135 14.1619 23.7879 14.1486C24.4054 14.0246 24.8117 13.4211 24.6909 12.8001C24.1478 10.0141 22.0033 7.86221 19.224 7.31991" fill="#53CAFD"></path>
+																<path opacity="0.4" d="M19.1415 2.67723C18.844 2.63459 18.5452 2.72253 18.3076 2.91174C18.0632 3.1036 17.9105 3.38075 17.8773 3.6912C17.807 4.31877 18.2598 4.88638 18.8865 4.957C23.2087 5.43933 26.5682 8.80635 27.0542 13.142C27.1193 13.723 27.6066 14.1613 28.1882 14.1613C28.232 14.1613 28.2745 14.1587 28.3184 14.1533C28.6224 14.12 28.8933 13.9695 29.0845 13.7296C29.2744 13.4898 29.3607 13.1913 29.3262 12.8862C28.7207 7.4766 24.5339 3.27815 19.1415 2.67723" fill="#53CAFD"></path>
+																<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7093 17.2965C20.0281 22.6138 21.2347 16.4623 24.6212 19.8464C27.886 23.1103 29.7625 23.7643 25.626 27.8996C25.1078 28.316 21.8158 33.3257 10.2465 21.7596C-1.32431 10.192 3.68244 6.89659 4.09895 6.3786C8.24548 2.23179 8.88814 4.11918 12.153 7.38311C15.5395 10.7687 9.39054 11.9792 14.7093 17.2965Z" fill="#53CAFD"></path>
+															</svg>   
+														</div>
+														<div class="info-content">
+															<span class="fs-16">Telephone</span>
+															<h4 class="">+12 345 5662 66</h4>
+														</div>
+													</div>
 												</div>
 											</div>
+											<!----/column-- -->
+											<!----column-- -->
+											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+												<div class="card info">
+													<div class="card-body d-flex align-items-center p-3">
+														<div class="info-icon pe-3 ">
+															<svg width="22" height="26" viewbox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M20.0457 5.48343C19.2874 3.98839 18.1655 2.70797 16.783 1.75986C15.4005 0.811764 13.8019 0.226414 12.1341 0.0576295C11.3796 -0.0180705 10.6195 -0.0180705 9.86498 0.0576295C8.1972 0.226525 6.5986 0.811858 5.21608 1.75985C3.83357 2.70783 2.71146 3.98807 1.95288 5.48293C0.998475 7.39028 0.629827 9.5374 0.89337 11.6539C1.15691 13.7703 2.04086 15.7615 3.43388 17.3765L10.2268 25.6353C10.3206 25.7494 10.4385 25.8414 10.5721 25.9045C10.7057 25.9676 10.8516 26.0003 10.9993 26.0003C11.147 26.0003 11.2929 25.9676 11.4265 25.9045C11.56 25.8414 11.678 25.7494 11.7718 25.6353L18.5647 17.3765C19.9577 15.7616 20.8416 13.7705 21.1052 11.6541C21.3687 9.53774 21.0001 7.3907 20.0457 5.48343ZM10.9993 14C10.2082 14 9.4348 13.7654 8.777 13.3259C8.11921 12.8864 7.60652 12.2617 7.30377 11.5308C7.00102 10.7999 6.9218 9.99559 7.07614 9.21967C7.23048 8.44374 7.61145 7.73101 8.17086 7.1716C8.73027 6.61219 9.443 6.23123 10.2189 6.07689C10.9948 5.92255 11.7991 6.00176 12.53 6.30451C13.2609 6.60726 13.8856 7.11995 14.3252 7.77775C14.7647 8.43555 14.9993 9.2089 14.9993 10C14.998 11.0605 14.5762 12.0772 13.8263 12.8271C13.0765 13.577 12.0598 13.9988 10.9993 14Z" fill="#53CAFD"></path>
+															</svg>    
+														</div>
+														<div class="info-content">
+															<span class="fs-16">Address</span>
+															<h4 class="text-break">774 Ora Brooks London</h4>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!----/column-- -->
+											<!----column-- -->
+											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+												<div class="card info">
+													<div class="card-body d-flex align-items-center p-3">
+														<div class="info-icon pe-3 ">
+															<svg width="30" height="27" viewbox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path opacity="0.4" d="M30 19.4109C30 23.5959 26.64 26.9859 22.455 27.0009H22.44H7.575C3.405 27.0009 0 23.6259 0 19.4409V19.4259C0 19.4259 0.009 12.7869 0.021 9.44792C0.0225 8.82092 0.7425 8.46992 1.233 8.85992C4.797 11.6874 11.1705 16.8429 11.25 16.9104C12.315 17.7639 13.665 18.2454 15.045 18.2454C16.425 18.2454 17.775 17.7639 18.84 16.8939C18.9195 16.8414 25.1505 11.8404 28.7685 8.96642C29.2605 8.57492 29.9835 8.92592 29.985 9.55142C30 12.8649 30 19.4109 30 19.4109Z" fill="#53CAFD"></path>
+																<path d="M29.2133 4.011C27.9143 1.563 25.3583 0 22.5443 0H7.57434C4.76034 0 2.20434 1.563 0.905337 4.011C0.614337 4.5585 0.752337 5.241 1.23684 5.628L12.3743 14.5365C13.1543 15.1665 14.0993 15.48 15.0443 15.48C15.0503 15.48 15.0548 15.48 15.0593 15.48C15.0638 15.48 15.0698 15.48 15.0743 15.48C16.0193 15.48 16.9643 15.1665 17.7443 14.5365L28.8818 5.628C29.3663 5.241 29.5043 4.5585 29.2133 4.011Z" fill="#53CAFD"></path>
+															</svg>
+														</div>
+														<div class="info-content">
+															<span class="fs-16">Email</span>
+															<h4 class="text-break">mileymiles@mail.com</h4>
+														</div>
+													
+													</div>
+												</div>
+											</div>
+											<!----/column-- -->
+											<!----column-- -->
+											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+												<div class="card info">
+													<div class="card-body d-flex align-items-center p-3">
+														<div class="info-icon pe-3 ">
+															<svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path opacity="0.3" d="M20 35C28.2843 35 35 28.2843 35 20C35 11.7157 28.2843 5 20 5C11.7157 5 5 11.7157 5 20C5 28.2843 11.7157 35 20 35Z" fill="#53CAFD"></path>
+																<path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M19.5596 34.9937C11.479 34.7606 5 28.1369 5 20C5 19.8614 5.00188 19.7232 5.00562 19.5855C6.10388 19.6906 8.09395 19.929 8.18771 20.7007C8.31749 21.7682 8.18771 23.1027 9.09674 23.503C10.0058 23.9032 10.2655 21.9016 11.0446 22.4354C11.8236 22.9693 13.9014 23.4832 13.9014 24.427C13.9014 25.3707 13.5119 26.8391 13.9014 27.106C14.291 27.373 15.8483 29.2411 15.8487 29.508C15.8493 29.7749 16.3976 31.1322 16.234 31.6511C16.0984 32.0812 15.4143 33.4169 14.751 34.0243C16.2553 34.6034 17.8726 34.9432 19.5596 34.9937ZM13.8046 6.3352C15.6931 5.47761 17.7908 5 20 5C25.8524 5 30.922 8.35162 33.3941 13.2401C33.4494 14.5402 33.4397 15.6523 33.7269 16.0546C35.1887 18.1001 30.1659 19.5072 30.9289 22.6009C31.2649 23.9658 27.588 23.5328 26.69 24.8107C25.7913 26.0879 23.5958 25.2297 23.0867 24.9841C22.5776 24.7386 20.6278 25.5569 20.7982 24.1659C20.9676 22.7744 22.1538 22.6927 23.4259 22.1199C24.6975 21.5478 26.5315 19.6453 25.6303 19.3967C21.3872 18.2271 19.9396 14.1309 19.9396 14.1309C19.6851 14.0817 19.749 11.2352 18.6473 11.1534C17.5446 11.0713 16.9508 11.4807 15.3406 11.1534C13.7294 10.8262 14.0691 9.76239 13.8145 7.47093C13.7576 6.95693 13.7603 6.59528 13.8046 6.3352ZM34.9986 19.7951C34.9995 19.8633 35 19.9316 35 20C35 28.2345 28.3647 34.9192 20.1492 34.9993C28.2837 34.9172 34.8895 28.1474 34.9986 19.7951Z" fill="#53CAFD"></path>
+															</svg>      
+														</div>
+														<div class="info-content">
+															<span class="fs-16">Website</span>
+															<h4 class="text-break">demo@mail.com</h4>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!----/column-- -->
 										</div>
+                                        <div class="d-flex w-100 justify-content-between  flex-wrap pyment-card">
+                                            <div class="pe-4 py-2 py-sm-0">
+                                                <span class="fs-16">Payment Method</span>
+                                                <h4 class="mb-0">MasterCard 404</h4>
+                                            </div>
+                                            <div class="pe-4 py-2 py-sm-0">
+                                                <span class="fs-16">nvoice Date</span>
+                                                <h4 class="mb-0">April 29, 2020</h4>
+                                            </div>
+                                            <div class="pe-4 py-2 py-sm-0">
+                                                <span class="fs-16">Due Date</span>
+                                                <h4 class="mb-0">June 5, 2020</h4>
+                                            </div>
+                                            <div class="pe-4 py-2 py-sm-0">
+                                                <span class="fs-16">Date Paid</span>
+                                                <h4 class="mb-0">June 4, 2020</h4>
+                                            </div>
+                                        </div>
 									</div>
-									<div class="card-body py-0 custome-tooltip">
-										<div class="d-flex align-items-center flex-wrap income">
-											<div class="d-flex align-items-center mb-2 me-3 arrow">
-												<div class="me-3">
-													<svg class="theme-col" width="45" height="45" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<circle cx="26" cy="26" r="26" fill="var(--bs-body-bg)"></circle>
-														<g clip-path="url(#clip0)">
-														<path d="M34.9293 30.4004C34.9294 30.3966 34.9293 30.3927 34.9293 30.3889L34.9371 18.5152C34.9369 18.4212 34.9264 18.3275 34.906 18.2357L34.8284 17.9716L34.7507 17.8163L34.6653 17.7309C34.5585 17.5759 34.4243 17.4417 34.2693 17.3348L34.1916 17.2572L34.0984 17.164L33.8965 17.1019C33.783 17.0683 33.6654 17.0499 33.547 17.0475L21.6112 17.0708C20.8167 17.0676 20.17 17.7092 20.1668 18.5037C20.1668 18.5075 20.1668 18.5114 20.1668 18.5152C20.1853 19.3009 20.8178 19.9334 21.6035 19.9519L28.6935 19.9596C28.9967 19.9626 29.2402 20.2109 29.2372 20.5141C29.2358 20.6552 29.1802 20.7903 29.0818 20.8915L17.5187 32.4546C16.9568 33.0164 16.9568 33.9273 17.5186 34.4892C18.0804 35.0511 18.9913 35.0511 19.5532 34.4893C19.5533 34.4893 19.5533 34.4892 19.5534 34.4892L31.1164 22.9261C31.3338 22.7147 31.6815 22.7196 31.8929 22.937C31.9912 23.0382 32.0469 23.1733 32.0483 23.3144L32.0405 30.3889C32.0551 31.1805 32.6933 31.8188 33.4849 31.8333C34.2795 31.8365 34.9262 31.195 34.9293 30.4004Z" fill="white"></path>
-														</g>
-														<defs>
-														<clippath>
-														<rect width="24" height="24" fill="white" transform="translate(26 9.02945) rotate(45)"></rect>
-														</clippath>
-														</defs>
-													</svg>
-												</div>
-												<div>
-													<span class="fs-14">Income</span>
-													<h4 class="fs-5 font-w600">$459,234.08</h4>
-												</div>
-											</div>
-											<div class="d-flex align-items-center ms-sm-2 mb-2 arrow">
-												<div class="me-3">
-													<svg class="" width="45" height="45" viewbox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<circle cx="26" cy="26" r="26" transform="rotate(-180 26 26)" fill="#5E3ED0"></circle>
-														<g clip-path="url(#clip0)">
-														<path d="M17.0707 21.5996C17.0706 21.6034 17.0707 21.6073 17.0707 21.6111L17.0629 33.4848C17.0631 33.5788 17.0736 33.6725 17.094 33.7643L17.1716 34.0284L17.2493 34.1837L17.3347 34.2691C17.4415 34.4241 17.5757 34.5583 17.7307 34.6652L17.8084 34.7428L17.9016 34.836L18.1035 34.8981C18.217 34.9317 18.3346 34.9501 18.453 34.9525L30.3888 34.9292C31.1833 34.9324 31.83 34.2908 31.8332 33.4963C31.8332 33.4925 31.8332 33.4886 31.8332 33.4848C31.8147 32.6991 31.1822 32.0666 30.3965 32.0481L23.3065 32.0404C23.0033 32.0374 22.7598 31.7891 22.7628 31.4859C22.7642 31.3448 22.8198 31.2097 22.9182 31.1085L34.4813 19.5454C35.0432 18.9836 35.0432 18.0727 34.4814 17.5108C33.9196 16.9489 33.0087 16.9489 32.4468 17.5107C32.4467 17.5107 32.4467 17.5108 32.4466 17.5108L20.8836 29.0739C20.6662 29.2853 20.3185 29.2804 20.1071 29.063C20.0088 28.9618 19.9531 28.8267 19.9517 28.6856L19.9595 21.6111C19.9449 20.8195 19.3067 20.1812 18.5151 20.1667C17.7205 20.1635 17.0738 20.805 17.0707 21.5996Z" fill="white"></path>
-														</g>
-														<defs>
-														<clippath>
-														<rect width="24" height="24" fill="white" transform="translate(26 42.9706) rotate(-135)"></rect>
-														</clippath>
-														</defs>
-													</svg>
-												</div>
-												<div>
-													<span class="fs-14">Expense</span>
-													<h4 class="fs-5 font-w700">$ 23,456</h4>
-												</div>
-											</div>
-										</div>	
-										<div id="reservationChart" class="reservationChart"></div>
-									</div>
-								</div>
+                                
+								</div>	
 							</div>
 							<!----/column-- -->
 							<!----column-- -->
-							<div class="col-xl-4">
+							<div class="col-xl-6">
+                                <!-- --row-- -->
 								<div class="row">
-								<div class="col-xl-12 col-lg-4 col-md-6">
-									<div class="card Expense overflow-hidden">
-										<div class="card-body p-4 p-lg-3 p-xl-4 ">	
-											<div class="students1 one d-flex align-items-center justify-content-between ">
-												<div class="content">
-													<h2 class="mb-0">$19,522</h2>
-													<span class="mb-2 fs-14">Expense</span>
-													<h5>+0,5% than last month</h5>
-												</div>
-												<div>
-													<div class="d-inline-block position-relative donut-chart-sale mb-3">
-														<svg width="60" height="58" viewbox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M39.0469 2.3125C38.3437 3.76563 38.9648 5.52344 40.418 6.22657C44.4609 8.17188 47.8828 11.1953 50.3203 14.9805C52.8164 18.8594 54.1406 23.3594 54.1406 28C54.1406 41.3125 43.3125 52.1406 30 52.1406C16.6875 52.1406 5.85937 41.3125 5.85937 28C5.85937 23.3594 7.18359 18.8594 9.66797 14.9688C12.0937 11.1836 15.5273 8.16016 19.5703 6.21485C21.0234 5.51173 21.6445 3.76563 20.9414 2.30079C20.2383 0.847664 18.4922 0.226569 17.0273 0.929694C12 3.34376 7.74609 7.09375 4.73437 11.8047C1.64062 16.6328 -1.56336e-06 22.2344 -1.31134e-06 28C-9.60967e-07 36.0156 3.11719 43.5508 8.78906 49.2109C14.4492 54.8828 21.9844 58 30 58C38.0156 58 45.5508 54.8828 51.2109 49.2109C56.8828 43.5391 60 36.0156 60 28C60 22.2344 58.3594 16.6328 55.2539 11.8047C52.2305 7.10547 47.9766 3.34375 42.9609 0.929693C41.4961 0.238287 39.75 0.84766 39.0469 2.3125V2.3125Z" fill="#53CAFD"></path>
-															<path d="M41.4025 26.4414C41.9767 25.8671 42.258 25.1171 42.258 24.3671C42.258 23.6171 41.9767 22.8671 41.4025 22.2929L34.0314 14.9218C32.9533 13.8437 31.5236 13.2578 30.0119 13.2578C28.5002 13.2578 27.0587 13.8554 25.9923 14.9218L18.6212 22.2929C17.4728 23.4414 17.4728 25.2929 18.6212 26.4414C19.7697 27.5898 21.6212 27.5898 22.7697 26.4414L27.0939 22.1171L27.0939 38.7695C27.0939 40.3867 28.4064 41.6992 30.0236 41.6992C31.6408 41.6992 32.9533 40.3867 32.9533 38.7695L32.9533 22.1054L37.2775 26.4296C38.4025 27.5781 40.2541 27.5781 41.4025 26.4414Z" fill="#53CAFD"></path>
-														</svg>
-													</div>
-												</div>
+                                    <!----column-- -->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="card  wallet blue">
+											<div class="boxs">
+												<span class="box one"></span>
+												<span class="box two"></span>
+												<span class="box three"></span>
+												<span class="box four"></span>
 											</div>
-										</div>
-									</div>	
-								</div>
-								<!----/column-- -->
-								<!----column-- -->
-								<div class="col-xl-12 col-lg-4 col-md-6">
-									<div class="card">
-										<div class="card-body p-4 p-lg-3 p-xl-4 ">	
-											<div class="students1 two d-flex align-items-center justify-content-between">
-												<div class="content">
-													<h2 class="mb-0">$45,234</h2>
-													<span class="mb-2 fs-14">Income</span>
-													<h5 class="fs-13">-2% than last month</h5>
-												</div>
-												<div class="d-inline-block position-relative donut-chart-sale">
-													<span class="donut3" data-peity='{ "fill": ["rgba(204, 97, 255, 0.9)", "rgba(255, 255, 255, 0.1"],   "innerRadius": 30, "radius": 8}'>4/8</span>
-													<small>38%</small>
-												</div>
+                                            <div class="card-header border-0">
+                                                <div class="wallet-info">
+                                                    <span class="font-w400 d-block">Main Balance</span>
+                                                    <h4 class="fs-24 font-w600 mb-0 d-inline-flex me-2">$824,571.93</h4>
+                                                </div>
+                                                <div class="wallet-icon">
+                                                    <svg width="62" height="39" viewbox="0 0 62 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="42.7722" cy="19.2278" r="19.2278" fill="white" fill-opacity="0.2"></circle>
+                                                        <circle cx="19.2278" cy="19.2278" r="19.2278" fill="white" fill-opacity="0.2"></circle>
+                                                    </svg>	
+                                                </div>
+                                            </div>
+                                            <div class="card-body d-flex align-items-center flex-wrap py-3">
+                                                <div class="value-data p-0 me-3">
+                                                    <span class="fs-14 font-w400 ">VALID THRU</span>
+                                                    <span class="value fs-16 "><span class="text-black pe-2 "></span>08/26</span>
+                                                </div>
+                                                <div class="value-data p-0 me-3">
+                                                    <span class="fs-14 font-w400 ">CARD HOLDER</span>
+                                                    <span class="value fs-16"><span class="text-black pe-2 "></span>Miley Cyrus</span>
+                                                </div>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                    <!----/column-- -->
+                                    <!----column-- -->
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="card  wallet org">
+											<div class="boxs">
+												<span class="box one"></span>
+												<span class="box two"></span>
+												<span class="box three"></span>
+												<span class="box four"></span>
 											</div>
-										</div>
-									</div>
-								</div>
-								<!----/column-- -->
-								<!----column-- -->
-								<div class="col-xl-12 col-lg-4 col-md-12">
-									<div class="card overflow-hidden">
-										<div class="card-body p-4 p-lg-3 p-xl-4">	
-											<div class="students1 three d-flex align-items-center justify-content-between">
-												<div class="content">
-													<h2 class="mb-0">$984</h2>
-													<span class="fs-14">Transactions</span>
-												</div>
-												<div class="newCustomers">
-													<div class="d-inline-block position-relative donut-chart-sale mb-3">
-														<div id="NewCustomers"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!---/-column-- -->
-							</div>
-						</div>
-							<!----column-- -->
-							
-							<!----/column-- -->	
-							<!----column-- -->
-							
-							<!----/column-- -->	
-							<!----column-- -->	
-						
-							<!----/column-- -->	
-							<!----column-- -->	
-							<div class="col-xl-12">
-								<div class="card mb-2">
-									<div class="row gx-0">
-										<!----column-- -->		
-										
-										<!----/column-- -->	
-										<!----column-- -->	
-										<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
-										<!----/column-- -->		
-									</div>
-									<!-- --/row--->	
-								</div>	
-							</div>
-						<!----/column-- -->	
-						</div>
-						<!--/row-->
+                                            <div class="card-header border-0">
+                                                <div class="wallet-info">
+                                                    <span class="font-w400 d-block">Main Balance</span>
+                                                    <h4 class="fs-24 font-w600 mb-0 d-inline-flex me-2">$523.56</h4>
+                                                </div>
+                                                <div class="wallet-icon">
+                                                    <svg width="62" height="39" viewbox="0 0 62 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="42.7722" cy="19.2278" r="19.2278" fill="white" fill-opacity="0.2"></circle>
+                                                        <circle cx="19.2278" cy="19.2278" r="19.2278" fill="white" fill-opacity="0.2"></circle>
+                                                    </svg>	
+                                                </div>
+                                            </div>
+                                            <div class="card-body d-flex align-items-center flex-wrap py-3">
+                                                <div class="value-data px-2">
+                                                    <span class="fs-14 font-w400 ">VALID THRU</span>
+                                                    <span class="value fs-16 "><span class="text-black pe-2 "></span>08/25</span>
+                                                </div>
+                                                <div class="value-data px-2">
+                                                    <span class="fs-14 font-w400 ">CARD HOLDER</span>
+                                                    <span class="value fs-16"><span class="text-black pe-2 "></span>Miley Cyrus</span>
+                                                </div>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                    <!----/column-- -->  
+                                </div>
+                                <!-- --/row-- -->
+                                <!----column-- -->
+                                
+                        <!--/column-->			
 					</div>
-					<!--/column-->
-					<!--column-->
-					<div class="col-xl-3">
-						<div class="card">
-							<div class="row">
-								<!----column-- -->
-								<div class="col-xl-12 col-lg-6">
-									<div class="card-header border-0 pb-0">
-										<div>
-											<h4 class="mb-0 fs-18 font-w600">Others</h4>
-											<span>Lorem ipsum dolor sit amet</span>
-										</div>
-									</div>
-									<div class="card-body pb-2">	
-										<div class="row">
-											<!--column-->
-											<div class="col-xl-12 col-lg-12 col-md-6">
-												<div class="card">
-													<div class="card-body p-3">
-														<div class="align-items-center d-flex flex-wrap">
-															<div class="d-inline-block position-relative donut-chart-sale me-1">
-																<span class="donut2" data-peity='{ "fill": ["rgba(39, 174, 96, 1)", "rgba(255, 255, 255, 0.1"],   "innerRadius": 18, "radius": 8}'>3/9</span>
-															</div>
-															<div class="other-content">
-																<h4 class="fs-18 font-w600 mb-1">Installment</h4>
-																<span class="fs-14">$5,412</span>
-															</div>	
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--/column-->
-											<!--column-->
-											<div class="col-xl-12 col-lg-12 col-md-6">
-												<div class="card">
-													<div class="card-body p-3">
-														<div class="align-items-center d-flex flex-wrap">
-															<div class="d-inline-block position-relative donut-chart-sale me-1">
-																<span class="donut2" data-peity='{ "fill": ["rgba(253, 83, 83, 1)", "rgba(255, 255, 255, 0.1"],   "innerRadius": 18, "radius": 8}'>5/9</span>
-															</div>
-															<div class="other-content">
-																<h4 class="fs-18 font-w600 mb-1">Investment</h4>
-																<span class="fs-14">$3,784</span>
-															</div>	
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--/column-->
-											<!--column-->
-											<div class="col-xl-12 col-lg-12 col-md-6">
-												<div class="card">
-													<div class="card-body p-3">
-														<div class="align-items-center d-flex flex-wrap">
-															<div class="d-inline-block position-relative donut-chart-sale me-1">
-																<span class="donut2" data-peity='{ "fill": ["rgba(253, 191, 32, 1)", "rgba(255, 255, 255, 0.1"],   "innerRadius": 18, "radius": 8}'>5/6</span>
-															</div>
-															<div class="other-content">
-																<h4 class="fs-18 font-w600 mb-1">Property</h4>
-																<span class="fs-14">$3,784</span>
-															</div>	
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--/column-->
-										</div>
-										<!-- --/row-- -->
-									</div>
-								</div>
-								<!----/column-- -->
-								<!----column-- -->
-								
-								<!----/column-- -->
-							</div>
-						</div>	
-						
-					</div>
-					<!----/column-- -->
+					<!-- --/row-- -->
 				</div>
+				<!----/column-- -->
+			<!--/row-->
+			</div>
+			<!--/row-->
 				<!--**********************************
-				Footer start
-			***********************************-->
-				<div class="footer">
-					<div class="copyright">
-						<p>FWMB</p>
+					Footer start
+				***********************************-->
+					<div class="footer">
+						<div class="copyright">
+							<p>FMWB</p>
+						</div>
 					</div>
-				</div>
-			<!--**********************************
-				Footer end
-			***********************************-->
-
-        	</div>
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel1">Add Person</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<label for="PersonName1" class="form-label d-block">Enter Name</label>
-						<input type="text" id="PersonName1" class="form-control w-100 mb-3" placeholder="Username">
-						<label for="PersonPosition1" class="form-label d-block">Enter Position</label>
-						<input type="text" id="PersonPosition1" class="form-control w-100" placeholder="Position">
-						
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-sm">Save changes</button>
-					</div>
-				</div>
-				</div>
-			</div>	
-			<!-- /Modal -->	
-		</div>		
+				<!--**********************************
+					Footer end
+				***********************************-->
+			
+            </div>
+			
+        </div>
         <!--**********************************
             Content body end
         ***********************************-->
 		
-			
 		
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Add Person</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<label for="PersonName" class="form-label d-block">Enter Name</label>
+					<input type="text" id="PersonName" class="form-control w-100 mb-3" placeholder="Username">
+					<label for="PersonPosition" class="form-label d-block">Enter Position</label>
+					<input type="text" id="PersonPosition" class="form-control w-100" placeholder="Position">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary btn-sm">Save changes</button>
+				</div>
+			</div>
+			</div>
+		</div>	
+		<!-- /Modal -->	
+		
+
+		
+        
+
 		<!--**********************************
            Support ticket button start
         ***********************************-->
@@ -1190,7 +1167,7 @@
         ***********************************-->
 	
 
-</div>
+	</div>
     <!--**********************************
         Main wrapper end
     ***********************************-->
@@ -1201,21 +1178,23 @@
     <!-- Required vendors -->
     <script src="vendor/global/global.min.js"></script>
 	<script src="vendor/chart.js/Chart.bundle.min.js"></script>
-	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script> 
+	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
 	<!-- Apex Chart -->
 	<script src="vendor/apexchart/apexchart.js"></script>
+	<script src="vendor/chart.js/Chart.bundle.min.js"></script>
+	
 	<!-- Chart piety plugin files -->
-    <script src="vendor/peity/jquery.peity.min.js"></script> 
-	<!-- Chartist -->
-   <script src="vendor/chartist/js/chartist.min.js"></script> 
-   <script src="vendor/jquery-autocomplete/jquery-ui.js"></script> 
-	<!-- <script src="./js/dashboard/dashboard-2.js"></script> -->
+    <script src="vendor/peity/jquery.peity.min.js"></script>
+	
 	<!-- Dashboard 1 -->
-	<script src="js/dashboard/dashboard-1.js"></script>
-	<script src="js/custom.min.js"></script>
+	<script src="js/dashboard/transaction-details.js"></script>
+	<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
+	<script src="vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="vendor/jquery-autocomplete/jquery-ui.js"></script> 
+    <script src="js/custom.min.js"></script>
 	<script src="js/dlabnav-init.js"></script>
 	<script src="js/demo.js"></script>
     <script src="js/styleSwitcher.js"></script>
-	
+
 </body>
 </html>
